@@ -1,0 +1,258 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram id="5y7PxzuALz7GC3cGJ19L" name="Página-1">
+    <mxGraphModel dx="3774" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f10" edge="1" parent="1" source="gworkspace" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#C0392B;strokeWidth=2;" target="rrhh_correo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1102" y="180" />
+              <mxPoint x="1102" y="270" />
+              <mxPoint x="1315" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f10_lbl" connectable="0" parent="f10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=#C0392B;" value="Informe Excel adjunto&lt;div&gt;&amp;nbsp;(×30 correos)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="0.5" as="geometry">
+            <mxPoint x="-82" y="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7" edge="1" parent="1" source="whatsapp" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#F0A500;strokeWidth=2;" target="gworkspace">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=18;fontStyle=1;fontColor=#1B2A4A;" value="Infraestructura actual – Suporta S.A.S" vertex="1">
+          <mxGeometry height="30" width="680" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=11;fontStyle=2;fontColor=#C0392B;" value="Proceso 100% manual · Sin automatización" vertex="1">
+          <mxGeometry height="22" width="680" x="350" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zona_suporta" parent="1" style="swimlane;startSize=32;fillColor=#EBF3FB;strokeColor=#2980B9;fontStyle=1;fontSize=13;fontColor=#1B2A4A;rounded=1;arcSize=3;" value="Suporta S.A.S" vertex="1">
+          <mxGeometry height="590" width="1190" x="-450" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_equipo" parent="zona_suporta" style="swimlane;startSize=26;fillColor=#D6EAF8;strokeColor=#2980B9;fontStyle=0;fontSize=11;fontColor=#1B2A4A;rounded=1;arcSize=5;" value="Equipo interno" vertex="1">
+          <mxGeometry height="120" width="720" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="asesora" parent="grp_equipo" style="rounded=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#2980B9;fontSize=11;fontColor=#1B2A4A;" value="👤 Asesora de seguimiento" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_herramientas" parent="zona_suporta" style="swimlane;startSize=26;fillColor=#D6EAF8;strokeColor=#2980B9;fontStyle=0;fontSize=11;fontColor=#1B2A4A;rounded=1;arcSize=5;" value="Herramientas de trabajo" vertex="1">
+          <mxGeometry height="365" width="1010" x="20" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="excel" parent="grp_herramientas" style="rounded=1;whiteSpace=wrap;fillColor=#E9F7EF;strokeColor=#27AE60;fontSize=11;fontColor=#1A5C38;" value="Excel de respuestas&#xa;Descarga manual del Forms&#xa;Filtrado por empresa" vertex="1">
+          <mxGeometry height="70" width="150" x="305" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="correo" parent="grp_herramientas" style="rounded=1;whiteSpace=wrap;fillColor=#FDEDEC;strokeColor=#C0392B;fontSize=11;fontColor=#7B241C;" value="Correo electrónico&#xa;Envío de links&#xa;e informes diarios" vertex="1">
+          <mxGeometry height="70" width="150" x="10" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="drive" parent="grp_herramientas" style="rounded=1;whiteSpace=wrap;fillColor=#FFF9E6;strokeColor=#F0A500;fontSize=11;fontColor=#7D5A00;" value="☁️ Google Drive&#xa;Almacena Excels&#xa;y materiales" vertex="1">
+          <mxGeometry height="70" width="150" x="790" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="whatsapp" parent="grp_herramientas" style="rounded=1;whiteSpace=wrap;fillColor=#E9F7EF;strokeColor=#27AE60;fontSize=11;fontColor=#1A5C38;" value=" WhatsApp&#xa;Recordatorios&#xa;urgentes" vertex="1">
+          <mxGeometry height="70" width="150" x="430" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UfxKW6BrMJOxwQI40krq-1" edge="1" parent="grp_herramientas" source="correo" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#F0A500;strokeWidth=2;" target="whatsapp" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="335" />
+              <mxPoint x="220" y="335" />
+            </Array>
+            <mxPoint x="165" y="290" as="sourcePoint" />
+            <mxPoint x="810" y="-65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfxKW6BrMJOxwQI40krq-2" connectable="0" parent="UfxKW6BrMJOxwQI40krq-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;" value="&lt;font style=&quot;color: light-dark(rgb(240, 165, 0), rgb(237, 237, 237));&quot;&gt;Envía por correo&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+        <mxCell id="forms" parent="grp_herramientas" style="rounded=1;whiteSpace=wrap;fillColor=#FFF9E6;strokeColor=#F0A500;fontSize=11;fontColor=#7D5A00;fontStyle=0;verticalAlign=middle;" value="Google Forms&#xa;Una evaluación única&#xa;para todos los clientes" vertex="1">
+          <mxGeometry height="70" width="150" x="50" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="grp_herramientas" source="forms" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#27AE60;strokeWidth=2;fontColor=light-dark(#22a400, #ededed);" target="excel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2_lbl" connectable="0" parent="f2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;" value="&lt;font style=&quot;color: light-dark(rgb(34, 165, 0), rgb(237, 237, 237));&quot;&gt;Descarga manual&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cb_suporta" parent="zona_suporta" style="text;html=1;strokeColor=#C0392B;fillColor=#FDEDEC;align=center;fontSize=10;fontColor=#C0392B;rounded=1;" value="&amp;nbsp;&lt;b&gt;Cuello de botella&lt;/b&gt;&lt;br&gt;Coordinadora filtra el Excel a diario&lt;br&gt;empleado por empleado (×30 empresas)" vertex="1">
+          <mxGeometry height="70" width="200" x="810" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" edge="1" parent="zona_suporta" source="excel" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#C0392B;strokeWidth=2;" target="coordinadora">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f3_lbl" connectable="0" parent="f3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=#C0392B;" value="Filtra por empresa (manual)" vertex="1">
+          <mxGeometry relative="0.5" as="geometry">
+            <mxPoint y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5" edge="1" parent="zona_suporta" source="coordinadora" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#C0392B;strokeWidth=2;" target="correo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5_lbl" connectable="0" parent="f5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=#C0392B;" value="Genera informe diario manual" vertex="1">
+          <mxGeometry relative="0.5" as="geometry">
+            <mxPoint y="119" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f6" edge="1" parent="zona_suporta" source="asesora" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#27AE60;strokeWidth=2;" target="whatsapp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6_lbl" connectable="0" parent="f6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;" value="Envía recordatorios" vertex="1">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+        <mxCell id="coordinadora" parent="zona_suporta" style="rounded=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#2980B9;fontSize=11;fontColor=#1B2A4A;" value="👤 Coordinadora de capacitaciones" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="zona_suporta" source="coordinadora" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#F0A500;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="forms">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1_lbl" connectable="0" parent="f1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=light-dark(#f0a500, #bc9e51);" value="Crea evaluación" vertex="1">
+          <mxGeometry relative="0.5" as="geometry">
+            <mxPoint x="-22" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zona_internet" parent="1" style="swimlane;startSize=32;fillColor=#F4F6F7;strokeColor=#7F8C8D;fontStyle=1;fontSize=13;fontColor=#2C3E50;rounded=1;arcSize=3;" value="Internet / Nube pública" vertex="1">
+          <mxGeometry height="590" width="240" x="750" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gworkspace" parent="zona_internet" style="rounded=1;whiteSpace=wrap;fillColor=#FFF9E6;strokeColor=#F0A500;fontSize=11;fontColor=#7D5A00;" value="☁️ Google Workspace&#xa;Gmail · Drive · Forms&#xa;Plan básico / gratuito&#xa;Sin SLA empresarial" vertex="1">
+          <mxGeometry height="80" width="180" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="isp" parent="zona_internet" style="rounded=1;whiteSpace=wrap;fillColor=#FDEDEC;strokeColor=#C0392B;fontSize=11;fontColor=#7B241C;" value="🔌 ISP (Proveedor de internet)&#xa;Conexión básica&#xa;Sin redundancia" vertex="1">
+          <mxGeometry height="65" width="180" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="zona_cliente" parent="1" style="swimlane;startSize=32;fillColor=#F5EEF8;strokeColor=#8E44AD;fontStyle=1;fontSize=13;fontColor=#4A235A;rounded=1;arcSize=3;" value="Cliente / Empresa contratante  (×30 empresas, ~20 empleados c/u)" vertex="1">
+          <mxGeometry height="600" width="540" x="1050" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_rrhh" parent="zona_cliente" style="swimlane;startSize=26;fillColor=#EBD5F5;strokeColor=#8E44AD;fontStyle=0;fontSize=11;fontColor=#4A235A;rounded=1;arcSize=5;" value="Contacto RRHH / Líder" vertex="1">
+          <mxGeometry height="140" width="490" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rrhh_pc" parent="grp_rrhh" style="rounded=1;whiteSpace=wrap;fillColor=#EBD5F5;strokeColor=#8E44AD;fontSize=11;fontColor=#4A235A;" value="💻 PC del contacto RRHH" vertex="1">
+          <mxGeometry height="60" width="140" x="15" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="rrhh_correo" parent="grp_rrhh" style="rounded=1;whiteSpace=wrap;fillColor=#FDEDEC;strokeColor=#C0392B;fontSize=11;fontColor=#7B241C;" value="📧 Recibe informe diario&#xa;(Excel adjunto por correo)" vertex="1">
+          <mxGeometry height="60" width="140" x="175" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="rrhh_wa" parent="grp_rrhh" style="rounded=1;whiteSpace=wrap;fillColor=#E9F7EF;strokeColor=#27AE60;fontSize=11;fontColor=#1A5C38;" value="📱 WhatsApp&#xa;Reenvía links a empleados" vertex="1">
+          <mxGeometry height="60" width="140" x="335" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="grp_empleados" parent="zona_cliente" style="swimlane;startSize=26;fillColor=#EBD5F5;strokeColor=#8E44AD;fontStyle=0;fontSize=11;fontColor=#4A235A;rounded=1;arcSize=5;" value="Empleados (~20 por empresa)" vertex="1">
+          <mxGeometry height="160" width="490" x="20" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="emp1" parent="grp_empleados" style="rounded=1;whiteSpace=wrap;fillColor=#EBD5F5;strokeColor=#8E44AD;fontSize=11;fontColor=#4A235A;" value="📱 Celular / PC&#xa;Recibe link por WhatsApp&#xa;o correo" vertex="1">
+          <mxGeometry height="60" width="140" x="335" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="emp2" parent="grp_empleados" style="rounded=1;whiteSpace=wrap;fillColor=#EBD5F5;strokeColor=#8E44AD;fontSize=11;fontColor=#4A235A;" value="📱 Celular / PC&#xa;Responde Google Forms&#xa;Sin app dedicada" vertex="1">
+          <mxGeometry height="60" width="140" x="175" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="emp3" parent="grp_empleados" style="rounded=1;whiteSpace=wrap;fillColor=#EBD5F5;strokeColor=#8E44AD;fontSize=11;fontColor=#4A235A;" value="📱 Celular / PC&#xa;(N empleados más)" vertex="1">
+          <mxGeometry height="60" width="140" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cb_cliente" parent="zona_cliente" style="text;html=1;strokeColor=#C0392B;fillColor=#FDEDEC;align=center;fontSize=10;fontColor=#C0392B;rounded=1;" value="Sin trazabilidad automática&lt;br&gt;No hay sistema que registre&lt;br&gt;quién respondió y quién no" vertex="1">
+          <mxGeometry height="70" width="490" x="25" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="f13" edge="1" parent="zona_cliente" source="rrhh_wa" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#27AE60;strokeWidth=2;" target="emp1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="210" />
+              <mxPoint x="425" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f13_lbl" connectable="0" parent="f13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=light-dark(#000000,#FF8C80);" value="Reenvía link de evaluación" vertex="1">
+          <mxGeometry relative="0.5" as="geometry">
+            <mxPoint y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8" edge="1" parent="1" source="lista" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#F0A500;strokeWidth=1;dashed=1;" target="gworkspace">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" edge="1" parent="1" source="drive" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#F0A500;strokeWidth=1;dashed=1;" target="gworkspace">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f11" edge="1" parent="1" source="gworkspace" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8E44AD;strokeWidth=2;" target="emp2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="300" />
+              <mxPoint x="1400" y="300" />
+              <mxPoint x="1400" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f11_lbl" connectable="0" parent="f11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=#8E44AD;" value="Accede a Google Forms" vertex="1">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+        <mxCell id="f12" edge="1" parent="1" source="whatsapp" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#27AE60;strokeWidth=2;" target="rrhh_wa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="75" y="770" />
+              <mxPoint x="1630" y="770" />
+              <mxPoint x="1630" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f12_lbl" connectable="0" parent="f12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;" value="Recordatorio" vertex="1">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+        <mxCell id="f14" edge="1" parent="1" source="emp2" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#8E44AD;strokeWidth=2;" target="gworkspace">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315" y="370" />
+              <mxPoint x="870" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f14_lbl" connectable="0" parent="f14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=#8E44AD;" value="Envía respuestas" vertex="1">
+          <mxGeometry relative="0.5" as="geometry" />
+        </mxCell>
+        <mxCell id="leyenda_box" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#F4F6F7;strokeColor=#7F8C8D;" value="" vertex="1">
+          <mxGeometry height="110" width="340" x="-340" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="ley_titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontStyle=1;fontColor=#2C3E50;" value="Leyenda" vertex="1">
+          <mxGeometry height="20" width="100" x="-325" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="ley1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#C0392B;" value="─── Flujo principal de datos" vertex="1">
+          <mxGeometry height="18" width="220" x="-325" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="ley2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#F0A500;" value="- - - Sincronización nube (respaldo)" vertex="1">
+          <mxGeometry height="18" width="220" x="-325" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="ley3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#C0392B;" value="⚠️  Cuello de botella identificado" vertex="1">
+          <mxGeometry height="18" width="220" x="-325" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="ley4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontColor=#2C3E50;" value="📋  Herramienta manual / sin automatización" vertex="1">
+          <mxGeometry height="18" width="310" x="-325" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="lista" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#E9F7EF;strokeColor=#27AE60;fontSize=11;fontColor=#1A5C38;" value=" Lista de empleados&#xa;por empresa&#xa;(archivo manual)" vertex="1">
+          <mxGeometry height="70" width="150" x="30" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" edge="1" parent="1" source="lista" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#C0392B;strokeWidth=2;" target="coordinadora">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-245" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_lbl" connectable="0" parent="f4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=9;fontColor=#C0392B;" value="Compara empleado por empleado" vertex="1">
+          <mxGeometry relative="0.5" as="geometry">
+            <mxPoint x="136" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfxKW6BrMJOxwQI40krq-3" edge="1" parent="1" source="forms" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#F0A500;strokeWidth=1;dashed=1;" target="lista" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="405" />
+              <mxPoint x="-180" y="400" />
+            </Array>
+            <mxPoint x="-155" y="360" as="sourcePoint" />
+            <mxPoint x="870" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UfxKW6BrMJOxwQI40krq-4" edge="1" parent="1" source="isp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cb_cliente" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
