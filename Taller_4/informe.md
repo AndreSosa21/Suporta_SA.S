@@ -54,9 +54,9 @@ El diagrama también muestra que no existe un portal unificado, ningún sistema 
 
 ## 📈 Diagrama final entregado
 
-> Ver archivo adjunto: `infraestructura-suporta.drawio`
+> ![Diagrama de contexto](mapa_final.drawio.png)
 >
-> El diagrama contiene tres zonas (Suporta S.A.S / Internet-Nube Pública / Cliente), los nodos de infraestructura de cada actor, los flujos de datos entre ellos y los cuellos de botella señalados visualmente con advertencias ⚠️.
+> El diagrama contiene tres zonas (Suporta S.A.S / Internet-Nube Pública / Cliente), los nodos de infraestructura de cada actor, los flujos de datos entre ellos y los cuellos de botella señalados visualmente con advertencias S.
 
 ## 📋 Tabla de actores, entidades o componentes
 
